@@ -123,7 +123,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-BOT_TOKEN = '1915503339:AAGxI5hq5Nh528GBj3xh_PaFQjoTd4RkjDs'
+BOT_TOKEN = ''
 
 BOTMOTHER_CHAT_MODEL = 'assistant.Chat'
 TESTING = ('test' == sys.argv[1]) if sys.argv else False
